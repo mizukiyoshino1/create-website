@@ -5,8 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <title>Book</title>
-  <link rel="stylesheet" href="./style.css">
-  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="{{ asset('/assets/css/style.css')}}">
+  <link rel="stylesheet" href="{{ asset('/assets/css/reset.css')}}">
 </head>
 
 <body>
@@ -30,7 +30,7 @@
     <h1 id="PURPOSE">PURPOSE</h1>
 
     <div class="img">
-        <img src="./img/goodsign.jpg" alt="ok" class="sign">   
+        <img src="{{ asset('/assets/img/goodsign.jpg') }}" alt="ok" class="sign">   
     </div>
 
     <p class="content" id="top-content">僕は読書が大好きだ。もっと多くの人に本を読むようアドバイスしたい。<br class="sentence1">本の中には、まったく新しい世界が広がっているんだよ。<br>旅行に行く余裕がなくても、本を読めば心の中で旅することができる。<br>本の世界では、何でも見たいものをみて、どこでも行きたいところに行ける。</p>
@@ -48,7 +48,7 @@
     <div class="contents">
       <div class="content-A">
         <a href="https://www.amazon.co.jp/%EF%BC%91%E5%88%86%E3%81%A7%E8%A9%B1%E3%81%9B-%E4%B8%96%E7%95%8C%E3%81%AE%E3%83%88%E3%83%83%E3%83%97%E3%81%8C%E7%B5%B6%E8%B3%9B%E3%81%97%E3%81%9F%E5%A4%A7%E4%BA%8B%E3%81%AA%E3%81%93%E3%81%A8%E3%81%A0%E3%81%91%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%81%AB%E4%BC%9D%E3%81%88%E3%82%8B%E6%8A%80%E8%A1%93-%E4%BC%8A%E8%97%A4-%E7%BE%8A%E4%B8%80-ebook/dp/B07BFNPD6Q/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=2WCDCB5FES4VP&keywords=1%E5%88%86%E3%81%A7%E8%A9%B1%E3%81%9B&qid=1661063969&sprefix=1%E5%88%86%E3%81%A7%E8%A9%B1%E3%81%9B%2Caps%2C322&sr=8-1">
-          <img src="./img/book1.png" alt="book" class="img_wrap">
+          <img src="{{ asset('/assets/img/book1.png') }}" alt="book" class="img_wrap">
         </a>
         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="like1" viewBox="0 0 16 16">
           <path fill-rule="evenodd" d="M2.854 15.854A.5.5 0 0 1 2 15.5V14H.5a.5.5 0 0 1-.354-.854l1.5-1.5A.5.5 0 0 1 2 11.5h1.793l3.103-3.104a.5.5 0 1 1 .708.708L4.5 12.207V14a.5.5 0 0 1-.146.354l-1.5 1.5ZM16 3.5a.5.5 0 0 1-.854.354L14 2.707l-1.006 1.006c.236.248.44.531.6.845.562 1.096.585 2.517-.213 4.092-.793 1.563-2.395 3.288-5.105 5.08L8 13.912l-.276-.182A23.825 23.825 0 0 1 5.8 12.323L8.31 9.81a1.5 1.5 0 0 0-2.122-2.122L3.657 10.22a8.827 8.827 0 0 1-1.039-1.57c-.798-1.576-.775-2.997-.213-4.093C3.426 2.565 6.18 1.809 8 3.233c1.25-.98 2.944-.928 4.212-.152L13.292 2 12.147.854A.5.5 0 0 1 12.5 0h3a.5.5 0 0 1 .5.5v3Z"/>
@@ -69,7 +69,7 @@
       </div>
       <div class="content-A" id="change-contents1">
         <a href="https://www.amazon.co.jp/%E3%80%8C%E5%85%B7%E4%BD%93%E2%87%94%E6%8A%BD%E8%B1%A1%E3%80%8D%E3%83%88%E3%83%AC%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0-%E6%80%9D%E8%80%83%E5%8A%9B%E3%81%8C%E9%A3%9B%E8%BA%8D%E7%9A%84%E3%81%AB%E3%82%A2%E3%83%83%E3%83%97%E3%81%99%E3%82%8B29%E5%95%8F-PHP%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E6%96%B0%E6%9B%B8-%E7%B4%B0%E8%B0%B7-%E5%8A%9F-ebook/dp/B0868GMSBG/ref=sr_1_2?crid=2RFAQ9YZTWW0Z&keywords=%E5%85%B7%E4%BD%93%E6%8A%BD%E8%B1%A1&qid=1661064053&sprefix=%E5%85%B7%E4%BD%93%E6%8A%BD%E8%B1%A1%2Caps%2C268&sr=8-2">
-          <img src="./img/book2.png" alt="book" class="img_wrap">
+          <img src="{{ asset('/assets/img/book2.png')}}" alt="book" class="img_wrap">
         </a>
         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="like1" viewBox="0 0 16 16">
           <path fill-rule="evenodd" d="M2.854 15.854A.5.5 0 0 1 2 15.5V14H.5a.5.5 0 0 1-.354-.854l1.5-1.5A.5.5 0 0 1 2 11.5h1.793l3.103-3.104a.5.5 0 1 1 .708.708L4.5 12.207V14a.5.5 0 0 1-.146.354l-1.5 1.5ZM16 3.5a.5.5 0 0 1-.854.354L14 2.707l-1.006 1.006c.236.248.44.531.6.845.562 1.096.585 2.517-.213 4.092-.793 1.563-2.395 3.288-5.105 5.08L8 13.912l-.276-.182A23.825 23.825 0 0 1 5.8 12.323L8.31 9.81a1.5 1.5 0 0 0-2.122-2.122L3.657 10.22a8.827 8.827 0 0 1-1.039-1.57c-.798-1.576-.775-2.997-.213-4.093C3.426 2.565 6.18 1.809 8 3.233c1.25-.98 2.944-.928 4.212-.152L13.292 2 12.147.854A.5.5 0 0 1 12.5 0h3a.5.5 0 0 1 .5.5v3Z"/>
@@ -84,7 +84,7 @@
     <div class="contents">
       <div class="content-A">
         <a href="https://www.amazon.co.jp/%EF%BC%A8%EF%BC%A5%EF%BC%AC%EF%BC%AC%EF%BC%AF%EF%BC%8C%EF%BC%A4%EF%BC%A5%EF%BC%B3%EF%BC%A9%EF%BC%A7%EF%BC%AE-%E6%97%A5%E6%9C%AC%E4%BA%BA%E3%81%A8%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3-NewsPicks-Book-%E7%9F%B3%E5%B7%9D%E4%BF%8A%E7%A5%90-ebook/dp/B07P45QNMN/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=29BU27Q6DORF5&keywords=HELLO+DESIGN&qid=1661064128&sprefix=hello+design%2Caps%2C265&sr=8-1">
-          <img src="./img/book3.png" alt="book" class="img_wrap">
+          <img src="{{ asset('/assets/img/book3.png')}}" alt="book" class="img_wrap">
         </a>
         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="like1" viewBox="0 0 16 16">
           <path fill-rule="evenodd" d="M2.854 15.854A.5.5 0 0 1 2 15.5V14H.5a.5.5 0 0 1-.354-.854l1.5-1.5A.5.5 0 0 1 2 11.5h1.793l3.103-3.104a.5.5 0 1 1 .708.708L4.5 12.207V14a.5.5 0 0 1-.146.354l-1.5 1.5ZM16 3.5a.5.5 0 0 1-.854.354L14 2.707l-1.006 1.006c.236.248.44.531.6.845.562 1.096.585 2.517-.213 4.092-.793 1.563-2.395 3.288-5.105 5.08L8 13.912l-.276-.182A23.825 23.825 0 0 1 5.8 12.323L8.31 9.81a1.5 1.5 0 0 0-2.122-2.122L3.657 10.22a8.827 8.827 0 0 1-1.039-1.57c-.798-1.576-.775-2.997-.213-4.093C3.426 2.565 6.18 1.809 8 3.233c1.25-.98 2.944-.928 4.212-.152L13.292 2 12.147.854A.5.5 0 0 1 12.5 0h3a.5.5 0 0 1 .5.5v3Z"/>
@@ -107,7 +107,7 @@
       </div>
       <div class="content-A" id="change-contents3">
         <a href="https://www.amazon.co.jp/%E3%82%B9%E3%83%9A%E3%82%AD%E3%83%A5%E3%83%A9%E3%83%86%E3%82%A3%E3%83%B4%E3%83%BB%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3-%E5%95%8F%E9%A1%8C%E8%A7%A3%E6%B1%BA%E3%81%8B%E3%82%89%E3%80%81%E5%95%8F%E9%A1%8C%E6%8F%90%E8%B5%B7%E3%81%B8%E3%80%82%E2%80%94%E6%9C%AA%E6%9D%A5%E3%82%92%E6%80%9D%E7%B4%A2%E3%81%99%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AB%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%81%8C%E3%81%A7%E3%81%8D%E3%82%8B%E3%81%93%E3%81%A8-%E3%82%A2%E3%83%B3%E3%82%BD%E3%83%8B%E3%83%BC%E3%83%BB%E3%83%80%E3%83%B3/dp/4802510020/ref=sr_1_1?crid=13CQ0UZHQ4592&keywords=%E3%82%B9%E3%83%9A%E3%82%AD%E3%83%A5%E3%83%A9%E3%83%86%E3%82%A3%E3%83%96%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3&qid=1661064157&sprefix=%E3%81%99%E3%81%BA%E3%81%8D%E3%82%85%E3%82%89%2Caps%2C319&sr=8-1">
-          <img src="./img/book4.png" alt="book" class="img_wrap">
+          <img src="{{ asset('/assets/img/book4.png') }}" alt="book" class="img_wrap">
         </a>
         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="like1" viewBox="0 0 16 16">
           <path fill-rule="evenodd" d="M2.854 15.854A.5.5 0 0 1 2 15.5V14H.5a.5.5 0 0 1-.354-.854l1.5-1.5A.5.5 0 0 1 2 11.5h1.793l3.103-3.104a.5.5 0 1 1 .708.708L4.5 12.207V14a.5.5 0 0 1-.146.354l-1.5 1.5ZM16 3.5a.5.5 0 0 1-.854.354L14 2.707l-1.006 1.006c.236.248.44.531.6.845.562 1.096.585 2.517-.213 4.092-.793 1.563-2.395 3.288-5.105 5.08L8 13.912l-.276-.182A23.825 23.825 0 0 1 5.8 12.323L8.31 9.81a1.5 1.5 0 0 0-2.122-2.122L3.657 10.22a8.827 8.827 0 0 1-1.039-1.57c-.798-1.576-.775-2.997-.213-4.093C3.426 2.565 6.18 1.809 8 3.233c1.25-.98 2.944-.928 4.212-.152L13.292 2 12.147.854A.5.5 0 0 1 12.5 0h3a.5.5 0 0 1 .5.5v3Z"/>
